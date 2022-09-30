@@ -17,16 +17,19 @@
     <br/>
 <main>
     <form>
-        <label for="nomesobrenome">Nome e sobrenome</label>
+        <label for="nomesobrenome">Nome</label>
         <input type="text" id="nomesobrenome">
-
+<br> 
+<br>
         <label for="email">Email</label>
         <input type="text" id="email">
-
+<br>
+<br>
         <label for="telefone">Telefone</label>
         <input type="text" id="telefone">
+<br>
+<br>
 
-        <input type="submit" value="Enviar formulário">
     </form>
 </main>
  <br/>
@@ -60,12 +63,26 @@
         <option>No dia de são nunca otário kkkkkkkkkkk</option>
     </select>
 </div>
-
+<br>
 <label class="checkbox">
     <input type="checkbox">
     Gostaria de receber nossas novidades por email?
 </label>
-
+<br>
+<label class="checkbox">
+    <input type="checkbox">
+  receber promoções por email?
+</label>
+<br>
+<label class="checkbox">
+    <input type="checkbox">
+  gostaria de ajudar nosso serviço 
+</label>
+<br>
+<br>
+<p> CEP <p/>
+<input type="text" name="cep" size="5" maxlength="5"> - <input type="CEP" name="cep2" size="3" maxlength="3">
+<br>
+<input type="submit" value="Enviar formulário">
 <html/>
-
 
